@@ -4,7 +4,7 @@ var outputText = document.querySelector(".text-output")
 
 var url = "https://api.funtranslations.com/translate/minion.json";
 
-const getTranslatedUrl (input){
+const getTranslatedUrl(input){
   var encoded = encodeURI(input)
   return url + "?" + "text=" + encoded;
 }
